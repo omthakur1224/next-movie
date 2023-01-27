@@ -4,7 +4,8 @@ const useTimeout = (delay) => {
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setReady(true), delay);
+    let id = setTimeout(() => setReady(true), delay);
+    return () => clearTimeout(id);
   }, []);
 
   return { ready };

@@ -4,11 +4,12 @@ const useOnlineStatus = () => {
 const [isUserOnline,setIsUserOnline] = useState(false)
 
 useEffect(()=>{
+    console.log(navigator.onLine);
     if (navigator.onLine) {
-    console.log('online');
+    // console.log('online');
     setIsUserOnline(true)
   } else {
-    console.log('offline');
+    // console.log('offline');
     setIsUserOnline(false)
   }
 },[navigator.onLine])

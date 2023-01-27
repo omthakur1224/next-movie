@@ -26,5 +26,5 @@ const isUserOnline = useOnlineStatus()
   );
 }
 
-      {/* If the user's network status is offline, show this div only */}
+      // {/* If the user's network status is offline, show this div only */}
 export default App;
