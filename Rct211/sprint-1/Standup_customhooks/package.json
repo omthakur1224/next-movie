@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@react-hookz/web": "^22.0.0",
+    "axios": "^1.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "use-debounce": "^9.0.3"

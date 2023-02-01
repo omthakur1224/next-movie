@@ -34,7 +34,7 @@ function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   // import and use the useReducer hook here, with the reducer function and the initialState.
-
+// process.env.SKIP_PREFLIGHT_CHECK
   //store the data in this object variable when you click on the submit button, to render, the data in the UI.
   const [submittedData, setSubmittedData] = useState(initialState);
   const handleSubmit = (e) => {

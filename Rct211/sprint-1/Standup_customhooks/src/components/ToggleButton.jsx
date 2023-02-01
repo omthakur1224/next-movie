@@ -2,7 +2,7 @@ import React from 'react'
 import { useToggle } from '../hooks/useToggle'
 
 const ToggleButton = () => {
-    const [toggle, item] = useToggle(["A", "B", "C", "D", "E", "F"])
+    const [toggle, item] = useToggle(["A", "B", "C", "D"])
   
   return (
     <div>
