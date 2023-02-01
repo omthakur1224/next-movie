@@ -5,11 +5,8 @@ export const Pin = forwardRef(
   ({ maxChar, backSpaceHandler, handleFocus }, ref) => {
 
     const keyHandler = (e) => {
-      if(e.keyCode === 8){
-        backSpaceHandler(e)
-      }else {
-        handleFocus(e)
-      }
+     e.keyCode === 8?backSpaceHandler(e):handleFocus(e)
+      
     }
 
     return (
