@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "id": 1671801581741,
+      "date": "2022-12-23",
+      "text": "Learn Todos",
+      "status": "PENDING"
+    },
+    {
+      "id": 1671801588947,
+      "date": "2022-12-23",
+      "text": "Learn Typescript",
+      "status": "DONE"
+    },
+    {
+      "id": 1676472301819,
+      "date": "2023-2-15",
+      "text": "Learn",
+      "status": "DONE"
+    },
+    {
+      "id": 1676475025208,
+      "date": "2023-2-15",
+      "text": "Learn React",
+      "status": "DONE"
+    }
+  ]
+}
